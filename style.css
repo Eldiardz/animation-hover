@@ -1,0 +1,78 @@
+body{
+    background-color: black;
+    display: flex;
+    gap: 10px;
+}
+.div1{
+    background-color: mediumaquamarine;
+    width: 6rem;
+    height: 6rem;
+}
+.div1:hover{
+    background-color: mediumaquamarine;
+    animation-name: slide-left;
+    animation-duration: 2s;
+}
+@keyframes slide-left{
+    from{
+        transform: translateX(0px);
+    }
+    to{
+        transform: translateX(-8rem);
+    }
+}
+.div2{
+    background-color: green;
+    width: 6rem;
+    height: 6rem;
+}
+.div2:hover{
+    background-color: green;
+    animation-name: slide-down;
+    animation-duration: 2s;
+}
+@keyframes slide-down{
+    from{
+        transform: translateY(0px);
+    }
+    to{
+        transform: translateY(7rem);
+    }
+}
+.div3{
+    background-color: blue;
+    width: 6rem;
+    height: 6rem;
+}
+.div3:hover{
+    background-color: blue;
+    animation-name: slide-up;
+    animation-duration: 2s;
+}
+@keyframes slide-up{
+    from{
+        transform: translateY(0px);
+    }
+    to{
+        transform: translateY(-7rem);
+    }
+}
+.div4{
+    background-color: cadetblue;
+    width: 6rem;
+    height: 6rem;
+}
+.div4:hover{
+    background-color: cadetblue;
+    animation-name: slide-right;
+    animation-duration: 2s;
+}
+@keyframes slide-right{
+    from{
+        transform: translateX(0px);
+    }
+    to{
+        transform: translateX(8rem);
+    }
+}
+    
